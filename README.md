@@ -70,8 +70,8 @@ In this file, Change the port number from 22 to 2200 and save it (Esc and :wq)
  ```
  		sudo ufw status
 
- 		 To                         Action      From
-		 --                         ------      ----
+ 		To                         Action      From
+		--                         ------      ----
 		2200/tcp                   ALLOW       Anywhere                  
 		80/tcp                     ALLOW       Anywhere                  
 		123/udp                    ALLOW       Anywhere                  
@@ -384,10 +384,18 @@ Steps to set Flask Application
 	 http://ec2-3-84-54-212.compute-1.amazonaws.com
 	 
 ## Resources from online for this Project
+
 Udacity: https://in.udacity.com/nanodegree
+
 You Tube: https://www.youtube.com/results?search_query=fullastack+videos+udacity
+
 Stack Overflow: https://stackoverflow.com/questions/18110033/getting-first-row-from-sqlalchemy
+
 Digital ocean: https://www.digitalocean.com/
+
+Reference Readme file from --Prasannarajmallipudi 
+
+   https://github.com/Prasannarajmallipudi/Linux-Server-Configuration#linux-server-configuration
 
 - Special Thanks to our mentors and supporters. Without their help I could not done this project.
 
